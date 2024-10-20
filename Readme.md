@@ -4,7 +4,7 @@ This repository contains a machine learning model for predicting whether a user 
 
 ## Files
 - `ad-click-prediction-95.ipynb`: Jupyter Notebook containing data exploration, feature engineering, model building, and evaluation.
-- `streamlit_app.py`: Python script for the web app using Streamlit to make predictions.
+- `app.py`: Python script for the web app using Streamlit to make predictions.
 
 ## Tools & Libraries Used
 - **Pandas**: For data manipulation and analysis.
@@ -18,7 +18,7 @@ This repository contains a machine learning model for predicting whether a user 
 
 ## How to Run the Streamlit App
 1. Install Streamlit: `pip install streamlit`.
-2. Run the app: `streamlit run streamlit_app.py`.
+2. Run the app: `streamlit run app.py`.
 
 ## Model
 The model used in this notebook  to predict whether a user will click on an ad based on various features like demographics, browsing behavior, etc.
